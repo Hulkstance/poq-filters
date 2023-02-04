@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B57EEF1E-24FB-4BBC-8FD3-CB0C9F1351B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D3E2D0DE-D5D9-4C35-81A6-38E32634FFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poq.Api", "src\Poq.Api\Poq.Api.csproj", "{2537E1A5-5627-41CC-900E-28D10C35F4E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1FCA9AA8-5F93-4749-A6E8-413B324A9F1A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poq.Results", "src\Poq.Results\Poq.Results.csproj", "{B28E2590-8B9F-412B-AE97-19CDDE3BE694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2537E1A5-5627-41CC-900E-28D10C35F4E8} = {B57EEF1E-24FB-4BBC-8FD3-CB0C9F1351B8}
+		{B28E2590-8B9F-412B-AE97-19CDDE3BE694} = {B57EEF1E-24FB-4BBC-8FD3-CB0C9F1351B8}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2537E1A5-5627-41CC-900E-28D10C35F4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2537E1A5-5627-41CC-900E-28D10C35F4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2537E1A5-5627-41CC-900E-28D10C35F4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2537E1A5-5627-41CC-900E-28D10C35F4E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28E2590-8B9F-412B-AE97-19CDDE3BE694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28E2590-8B9F-412B-AE97-19CDDE3BE694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28E2590-8B9F-412B-AE97-19CDDE3BE694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28E2590-8B9F-412B-AE97-19CDDE3BE694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
